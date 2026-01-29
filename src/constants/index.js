@@ -213,19 +213,25 @@ const gallery = [
 const certificates = [
   {
     id: 1,
-    name: "Certificate 1",
+    name: "OCI Architect Associate ",
     pdf: "/files/certificate1.pdf",
   },
   {
     id: 2,
-    name: "Certificate 2",
+    name: "AI Vector Search Professional",
     pdf: "/files/certificate2.pdf",
   },
   {
     id: 3,
-    name: "Certificate 3",
+    name: "Generative AI Professional ",
     pdf: "/files/certificate3.pdf",
   },
+  ,
+  // {
+  //   id: 4,
+  //   name: "OCI Multicloud Architect Professional ",
+  //   pdf: "/files/certificate3.pdf",
+  // },
 ];
 
 export {

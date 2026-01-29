@@ -1,3 +1,4 @@
-- [x] Update src/components/index.js to export Home component
-- [x] Update src/App.jsx to import Home and add <Home /> in the main section
-- [x] Run the app to verify Home displays correctly
+- [ ] Enhance Gallery component styling: Transform certificate list items into modern card designs with hover effects, shadows, better spacing, and improved typography.
+- [ ] Update the grid layout for better responsiveness and visual appeal.
+- [ ] Add hover effects and transitions to make the cards interactive.
+- [ ] Ensure the design is consistent with the MacOS portfolio theme.
