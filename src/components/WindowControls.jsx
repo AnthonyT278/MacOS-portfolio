@@ -1,10 +1,10 @@
 import useWindowStore from '#store/window'
 import React from 'react'
 
-const WindowControlls = ({ target }) => {
+const WindowControls = ({ target }) => {
   const { closeWindow } = useWindowStore();
-  
-  return ( 
+
+  return (
       <div id="window-controls">
           <div className='close' onClick={() =>closeWindow(target)}/>
           <div className='minimize'/>
@@ -13,4 +13,4 @@ const WindowControlls = ({ target }) => {
   );
 };
 
-export default WindowControlls
+export default WindowControls

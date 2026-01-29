@@ -6,7 +6,7 @@ import { useRef, useLayoutEffect } from "react";
 
 const windowWrapper = (Component, windowKey) => {
   const Wrapped = (props) => {
-    const { windows } = useWindowStore();
+    const { windows, focusWindow } = useWindowStore();
     const windowData = windows?.[windowKey];
 
     if (!windowData) {
@@ -21,8 +21,10 @@ const windowWrapper = (Component, windowKey) => {
       const el = ref.current;
       if (!el) return;
 
-    const [instance] = Draggable.create(el, { onPress: () => focusWindow(windowKey) }, []);
-     return () => instance.kill();
+      const [instance] = Draggable.create(el, { 
+        onPress: () => focusWindow(windowKey) 
+      });
+      return () => instance.kill();
     });
 
     useLayoutEffect(() => {
