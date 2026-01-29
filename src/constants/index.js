@@ -49,7 +49,7 @@ const dockApps = [
     canOpen: true,
   },
   {
-    id: "photos",
+    id: "gallery",
     name: "Gallery", // was "Photos"
     icon: "photos.png",
     canOpen: true,
@@ -210,6 +210,24 @@ const gallery = [
   },
 ];
 
+const certificates = [
+  {
+    id: 1,
+    name: "Certificate 1",
+    pdf: "/files/certificate1.pdf",
+  },
+  {
+    id: 2,
+    name: "Certificate 2",
+    pdf: "/files/certificate2.pdf",
+  },
+  {
+    id: 3,
+    name: "Certificate 3",
+    pdf: "/files/certificate3.pdf",
+  },
+];
+
 export {
   navLinks,
   navIcons,
@@ -219,6 +237,7 @@ export {
   socials,
   photosLinks,
   gallery,
+  certificates,
 };
 
 const WORK_LOCATION = {
@@ -501,7 +520,7 @@ const WINDOW_CONFIG = {
   contact: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   resume: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   safari: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
-  photos: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
+  gallery: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   terminal: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   txtfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },
   imgfile: { isOpen: false, zIndex: INITIAL_Z_INDEX, data: null },

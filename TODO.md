@@ -1,0 +1,3 @@
+- [x] Update src/components/index.js to export Home component
+- [x] Update src/App.jsx to import Home and add <Home /> in the main section
+- [x] Run the app to verify Home displays correctly
