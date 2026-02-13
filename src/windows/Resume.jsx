@@ -26,7 +26,7 @@ const Resume = () => {
       <h2>Resume.pdf</h2>
 
       <a 
-      href="/files/resume.pdf" 
+      href="/files/resume-1.pdf" 
       download
       className="cursor-pointer"
       title="Download resume"
@@ -46,7 +46,7 @@ const Resume = () => {
        backgroundColor: "#f5f5f5"
      }}>
        <Document 
-         file="/files/resume.pdf" 
+         file="/files/resume-1.pdf" 
          onLoadSuccess={onDocumentLoadSuccess}
          loading="Loading PDF..."
          error="Failed to load PDF"

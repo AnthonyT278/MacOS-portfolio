@@ -213,23 +213,29 @@ const gallery = [
 const certificates = [
   {
     id: 1,
-    name: "OCI Architect Associate ",
+    name: "OCI Architect Associate ",
     pdf: "/files/certificate1.pdf",
+    link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=D3AB211A216B8631FBD3E9B31656DF88529B3F5C05CA61EA15041A05AFB69445",
+
   },
+
   {
     id: 2,
     name: "AI Vector Search Professional",
     pdf: "/files/certificate2.pdf",
+    link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=D54F7FC1002C1B90282DAA35429AF2F0B70C3ABD331F1D81B1BD3F85E623313B",
+
   },
+
   {
     id: 3,
-    name: "Generative AI Professional ",
+    name: "Generative AI Professional ",
     pdf: "/files/certificate3.pdf",
+    link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=59E2DEEFF2B8E3D4B5B77EFD5A149353EED6EFECDC25E4CD44BC7F391AA49DED"
   },
-  ,
   // {
   //   id: 4,
-  //   name: "OCI Multicloud Architect Professional ",
+  //   name: "OCI Multicloud Architect Professional ",
   //   pdf: "/files/certificate3.pdf",
   // },
 ];
@@ -308,7 +314,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "Saas-AI",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -316,30 +322,29 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "SaaS AI Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "Saas-AI is a cutting-edge SaaS application that harnesses the power of AI to deliver intelligent solutions for businesses.",
+            "Built with Next.js and Tailwind CSS, it offers a sleek, responsive design and seamless user experience.",
+            "From automating tasks to providing data-driven insights, Saas-AI is designed to help businesses thrive in the digital age.",
           ],
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "saas-ai.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "openlearningacadmy.netlify.app",
           position: "top-20 left-20",
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "ai-saas.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -352,7 +357,7 @@ const WORK_LOCATION = {
           icon: "/images/plain.png",
           kind: "file",
           fileType: "fig",
-          href: "https://google.com",
+          href: "openlearningacadmy.netlify.app",
           position: "top-60 left-5",
         },
       ],
@@ -387,7 +392,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "#",
           position: "top-10 right-20",
         },
         {
@@ -405,7 +410,7 @@ const WORK_LOCATION = {
           icon: "/images/plain.png",
           kind: "file",
           fileType: "fig",
-          href: "https://google.com",
+          href: "#",
           position: "top-60 right-20",
         },
       ],
@@ -427,7 +432,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/thabo.png",
     },
     {
       id: 2,
@@ -436,16 +441,16 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/moro.jpg",
     },
     {
       id: 3,
       name: "conference-me.png",
-      icon: "/images/image.png",
+      icon: "/images/thabo.png",
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/moro1.jpg",
     },
     {
       id: 4,
@@ -455,12 +460,48 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/moro2.jpg",
       description: [
         "Hey! I’m Thabo Ramathebane 👋, a web developer and AI enthusiast who loves building sleek, interactive websites that don’t just look good — they actually work beautifully.",
          "I specialize in JavaScript, TypeScript, React, and Next.js, and I also dive into Python for data-driven and AI projects. My toolkit now includes modern AI frameworks and tools like LangChain, PyTorch, TensorFlow, Hugging Face Transformers, and vector search technologies for building applications powered by LLMs."
 
       ],
+    },
+    {
+      id: 5,
+      name: "work-1.jpeg",
+      icon: "/images/image.png",
+      kind: "file",
+      fileType: "img",
+      position: "top-10 left-40",
+      imageUrl: "/images/work-1.jpeg",
+    },
+    {
+      id: 6,
+      name: "work-2.jpeg",
+      icon: "/images/image.png",
+      kind: "file",
+      fileType: "img",
+      position: "top-28 right-20",
+      imageUrl: "/images/work-2.jpeg",
+    },
+    {
+      id: 7,
+      name: "work-7.jpeg",
+      icon: "/images/image.png",
+      kind: "file",
+      fileType: "img",
+      position: "top-52 left-40",
+      imageUrl: "/images/work-7.jpeg",
+    },
+    {
+      id: 8,
+      name: "work-9.jpeg",
+      icon: "/images/image.png",
+      kind: "file",
+      fileType: "img",
+      position: "top-60 right-20",
+      imageUrl: "/images/work-9.jpeg",
     },
   ],
 };
@@ -509,6 +550,7 @@ const TRASH_LOCATION = {
       position: "top-40 left-80",
       imageUrl: "/images/trash-2.png",
     },
+    
   ],
 };
 
